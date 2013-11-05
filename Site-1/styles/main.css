@@ -1,0 +1,20 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*================ Header ===================*/
+.header {
+    background: #404040;
+    color: #fff;
+}
+
+.header-menu-item-link {
+    color: #fff;
+}
+.header-menu-item-link:hover,
+.header-menu-item-link:active {
+    color: #ad5948;
+}
+
