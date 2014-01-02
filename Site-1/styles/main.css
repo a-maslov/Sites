@@ -1,20 +1,99 @@
 .container {
-    width: 960px;
-    margin: 0 auto;
+	width: 960px;
+	margin: 0 auto;
 }
 
+@font-face {
+	font-family: LiberationSansBold; /* Гарнитура шрифта */
+	src: url(../fonts/LiberationSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: LiberationSansBold, "Helvetica", sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	padding-bottom: 80px;
+}
 
 /*================ Header ===================*/
 .header {
-    background: #404040;
-    color: #fff;
+	background: #404040;
+	color: #fff;
 }
 
 .header-menu-item-link {
-    color: #fff;
-}
-.header-menu-item-link:hover,
-.header-menu-item-link:active {
-    color: #ad5948;
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+
 }
 
+.header-menu-item-link:hover,
+.header-menu-item-link:active {
+	color: #f26c4f;
+}
+
+.header-menu {
+	padding: 15px 0 0 422px;
+}
+
+.header-menu-item {
+	list-style-type: none;
+	display: inline;
+	padding-right: 32px;
+}
+
+.container div {
+	display: inline-block;
+}
+
+.header-logo {
+	position: absolute;
+	padding-top: 25px;
+}
+
+.container {
+	height: 82px;
+}
+
+/*================ Footer ===================*/
+.footer {
+	background: #242424;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-menu-item-link {
+	color: #f26c4f;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.footer-menu {
+	padding: 20px 0 0 20px;
+}
+
+.footer-menu-item {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 23px;
+}
+
+.copyright {
+	color: #858585;
+	font-size: 13px;
+	padding: 20px 0 0 20px;
+}

@@ -2,39 +2,57 @@
 <html>
 <head>
     <title>Сайт</title>
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <!--[if IE 7]>
-    <link href="styles/ie7.css" rel="stylesheet" type="text/css" />
+    <link href="styles/ie7.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <div class="header-logo">
-            <img src="images/logo.png" alt=""/>
-        </div>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-logo">
+                <img src="images/logo.png" alt=""/>
+            </div>
 
-        <div class="header-menu-container">
-            <ul class="header-menu">
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">Home</a></li>
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">About</a></li>
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">Portfolio</a></li>
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">Plans&Pricing</a></li>
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">Blog</a></li>
-                <li class="header-menu-item"><a class="header-menu-item-link" href="#">Contact</a></li>
+            <div class="header-menu-container">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">Home</a></li>
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">About</a></li>
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">Portfolio</a></li>
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">Plans&Pricing</a></li>
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">Blog</a></li>
+                    <li class="header-menu-item"><a class="header-menu-item-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="promo">
+            <div class="container">
+                Здесь будет промо сайта
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-menu">
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">Home</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">About</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">Portfolio</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">Services</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">Blog</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-item-link" href="#">Contact</a></li>
             </ul>
+            <div class="copyright">
+                &#169;eGrappler.com. Some Rights Reserved.
+            </div>
         </div>
-    </div>
-</header>
-<section class="promo">
-    <div class="container">
-        Здесь будет промо сайта
-    </div>
-</section>
-
+    </footer>
+</div>
 <!--Скрипты, чтобы не мешали загрузке страницы-->
 <script src="scripts/libs/jquery.min.js"></script>
-<script src="scripts/libs/index.js"></script>
+<script src="scripts/index.js"></script>
 </body>
 </html>
