@@ -31,9 +31,8 @@ html, body {
 
 .header-menu-item-link {
 	color: #fff;
-	font-size: 13px;
+	font-size: 12px;
 	text-decoration: none;
-
 }
 
 .header-menu-item-link:hover,
@@ -42,7 +41,7 @@ html, body {
 }
 
 .header-menu {
-	padding: 15px 0 0 422px;
+	padding: 32px 0 0 424px;
 }
 
 .header-menu-item {
@@ -60,8 +59,9 @@ html, body {
 	padding-top: 25px;
 }
 
-.container {
+.container--header {
 	height: 82px;
+	padding-left: 15px;
 }
 
 /*================ Footer ===================*/
@@ -96,4 +96,58 @@ html, body {
 	color: #858585;
 	font-size: 13px;
 	padding: 20px 0 0 20px;
+}
+
+/*================ Slider ===================*/
+.slider {
+	background-color: #333333;
+}
+
+.slider-background {
+	width: 1400px;
+	margin: 0 auto;
+	background: url("../images/roundabout-bg.png") #333333 no-repeat;
+}
+
+.container--slider {
+	height: 432px;
+}
+
+.divider {
+	height: 1px;
+	width: 100%;
+	background: #333333;
+	border-top: 1px solid #2f2f2f;
+	border-bottom: 1px solid #696969;
+}
+
+.sli-1{
+	background:url("../images/sli-1.png") no-repeat 50% 50%;
+}
+
+.sli-2{
+	background:url("../images/sli-2.png") no-repeat 50% 50%;
+}
+.sli-3{
+	background:url("../images/sli-3.png") no-repeat 50% 50%;
+}
+.sli-4{
+	background:url("../images/sli-4.png") no-repeat 50% 50%;
+}
+
+.list-item {
+	width: 236px !important;
+	height: 236px !important;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+.roundabout-holder {
+	list-style: none;
+	padding: 0;
+	height: 350px;
+	width: 530px;
+	margin: 0 auto;
+}
+.roundabout-in-focus {
+	cursor: auto;
 }
