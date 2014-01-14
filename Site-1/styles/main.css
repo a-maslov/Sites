@@ -20,7 +20,7 @@ html, body {
 }
 
 .content {
-	padding-bottom: 80px;
+	padding-bottom: 344px;
 }
 
 /*================ Header ===================*/
@@ -70,9 +70,77 @@ html, body {
 	color: #fff;
 	position: absolute;
 	bottom: 0;
-	height: 80px;
+	height: 344px;
 	width: 100%;
 	margin: 0 auto;
+}
+.footer .footer-top, .footer .footer-bottom{
+	width: 100%;
+}
+
+.footer-top{
+	background-color:#404040;
+	height:264px;
+}
+
+.footer-bottom{
+	background: #242424;
+	height:80px;
+}
+
+.footer-info{
+	float:left;
+	width:30%;
+	padding: 35px 0 0 20px;
+}
+.footer-info h2{
+	color:#f26c4f;
+	padding-bottom:20px;
+	font-size: 15px;
+}
+
+.footer-info p{
+	display:block;
+	padding:3px 0 27px 0;
+	font-size: 13px;
+}
+
+.mini{
+	font-size: 10px;
+}
+
+.footer-info a{
+	text-decoration: none;
+	color:#f26c4f;
+}
+
+.search-tf{
+	width:211px;
+	height:30px;
+}
+
+.bt-go{
+	width:38px;
+	height: 38px;
+	background-color:#f26c4f;
+	border-radius: 50%;
+	border: none;
+	box-shadow: 1px 3px 3px #b23f26;
+}
+
+.social-info{
+	padding-top: 40px;
+}
+.social-info a{
+	padding-right: 3px;
+}
+
+.private-info{
+	padding: 0;
+	font-size: 13px;
+}
+.private-info td{
+	padding: 0 24px 10px 0;
 }
 
 .footer-menu-item-link {
