@@ -41,7 +41,7 @@ html, body {
 }
 
 .header-menu {
-	padding: 32px 0 0 424px;
+	padding: 32px 0 0 409px;
 }
 
 .header-menu-item {
@@ -57,11 +57,12 @@ html, body {
 .header-logo {
 	position: absolute;
 	padding-top: 25px;
+	padding-left: 15px;
 }
 
 .container--header {
+	background: #404040;
 	height: 82px;
-	padding-left: 15px;
 }
 
 /*================ Promo ===================*/
@@ -212,6 +213,7 @@ html, body {
 }
 
 .fob-block-date{
+	width: 36px;
 	color: #808080;
 	font-size: 10px;
 	text-align: right;
@@ -220,7 +222,7 @@ html, body {
 }
 
 .content-block-fc{
-	width: 283px;
+	width: 285px;
 	float: right;
 }
 
@@ -367,6 +369,8 @@ html, body {
 }
 
 .esb-button{
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
 	cursor: pointer;
 	width: 80px;
 	height: 30px;
@@ -403,6 +407,12 @@ html, body {
 	width: 100%;
 }
 
+.contact-info{
+	width: 960px;
+	height: 264px;
+	background: #404040;
+}
+
 .footer-top{
 	background-color:#404040;
 	height:264px;
@@ -410,6 +420,10 @@ html, body {
 
 .footer-bottom{
 	background: #242424;
+}
+
+.footer-bottom .container{
+	background: #242424;;
 	height:80px;
 }
 
@@ -445,6 +459,8 @@ html, body {
 }
 
 .bt-go{
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
 	cursor: pointer;
 	width:38px;
 	height: 38px;
@@ -498,7 +514,7 @@ html, body {
 }
 
 .slider-background {
-	width: 1400px;
+	width: 960px;
 	margin: 0 auto;
 	background: url("../images/roundabout-bg.png") #333333 no-repeat;
 }
@@ -510,6 +526,7 @@ html, body {
 .divider {
 	height: 1px;
 	width: 100%;
+	min-width: 960px;
 	background: #333333;
 	border-top: 1px solid #2f2f2f;
 	border-bottom: 1px solid #696969;
